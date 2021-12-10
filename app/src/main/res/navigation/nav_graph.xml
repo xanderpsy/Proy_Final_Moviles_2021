@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homefragment">
+
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.proy_final_moviles_2021.fragmentHome.Homefragment"
+        android:label="fragment_homefragment"
+        tools:layout="@layout/fragment_homefragment" />
+    <fragment
+        android:id="@+id/pokedexFragment"
+        android:name="com.example.proy_final_moviles_2021.fragmentPokedex.PokedexFragment"
+        android:label="fragment_pokedex"
+        tools:layout="@layout/fragment_pokedex" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.proy_final_moviles_2021.fragmentSearch.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_pokemonVistaFragment"
+            app:destination="@id/pokemonVistaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokemonVistaFragment"
+        android:name="com.example.proy_final_moviles_2021.fragmentSearch.PokemonVistaFragment"
+        android:label="fragment_pokemon_vista"
+        tools:layout="@layout/fragment_pokemon_vista" >
+        <argument
+            android:name="pokemon_arg"
+            app:argType="string[]" />
+    </fragment>
+</navigation>

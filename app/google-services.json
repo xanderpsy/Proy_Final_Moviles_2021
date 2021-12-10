@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "110014728201",
+    "project_id": "moviles-proyecto-pokemon-2021",
+    "storage_bucket": "moviles-proyecto-pokemon-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110014728201:android:ec0eaafd481573e91c90d8",
+        "android_client_info": {
+          "package_name": "com.example.proy_final_moviles_2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110014728201-0ta7ing42ilubmnp18fp39ehqf98kbhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiI1D_XNJ9Gl4ShXlk7bvWohubSOzlSJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110014728201-0ta7ing42ilubmnp18fp39ehqf98kbhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
